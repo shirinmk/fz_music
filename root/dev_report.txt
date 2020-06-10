@@ -1,0 +1,31 @@
+Q) why my window not respondive?
+A)
+
+Q) working with bootstrap?
+A) start with starting page, the
+https://getbootstrap.com/docs/4.5/components/navbar/
+create sample page work how it works
+
+Q) there is a class on bootstrap inorder to overwrite on it do?
+A) !important in css file also create class and add to tag in html
+
+Q)my content didn't shrink or grwo with resizing page?
+A) in bootstrap I used container class
+
+Q) I like my image with resizing page stack or grwo?
+A) add media query and adjust the property of class element in html
+ @media only screen and (max-width: 625px)
+
+ Q) I created git repository in my terminal
+ A git init
+
+ Q)to remove this git repository
+ A) rmdir .git
+
+ Q)confuzing creating git init in my computer and create repo in github and clone it to my computer? 
+ don't know the difference?
+
+
+ 
+
+
