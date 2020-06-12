@@ -8,7 +8,7 @@ $(document).ready(function(){
       $("p").hide();
     });
   
-      imageUrl = "images/fzBack.jpg";
+      imageUrl = "images/optimize/fzBack.jpg";
       $('body').css("background-image", "url(" + imageUrl + ")");
       $('#galleryPage').hide();
       $('#aboutMePage').hide();
@@ -20,7 +20,7 @@ $(document).ready(function(){
   
      $('#galleryPageMenu').on('click', function(e){
       e.preventDefault();
-      imageUrl = "images/gallery8.jpg";
+      imageUrl = "images/optimize/gallery-Faramarz-Rashidi.jpg";
       $('#galleryPage').show();
       $('body').css("background-image", "url(" + imageUrl + ")");
       $('#welcomePage').hide();
@@ -32,7 +32,7 @@ $(document).ready(function(){
   
       $('#homeMenu').on('click', function(e){
        e.preventDefault();
-       imageUrl = "images/fzBack.jpg";
+       imageUrl = "images/optimize/fzBack.jpg";
        $('#galleryPage').hide();
        $('body').css("background-image", "url(" + imageUrl + ")");
        $('#welcomePage').show();
@@ -44,7 +44,7 @@ $(document).ready(function(){
   
        $('#aboutMenu').on('click', function(e){
         e.preventDefault();
-        imageUrl = "images/bioBack.jpg";
+        imageUrl = "images/optimize/biography-Faramarz-Rashidi.jpg";
         $('#galleryPage').hide();
         $('body').css("background-image", "url(" + imageUrl + ")");
         $('#contactPage').hide();
@@ -57,7 +57,7 @@ $(document).ready(function(){
   
         $('#contactMenu').on('click', function(e){
          e.preventDefault();
-         imageUrl = "images/gallery5.jpg";
+         imageUrl = "images/optimize/contact-Faramarz-Rashidi.jpg";
          $('#galleryPage').hide();
          $('body').css("background-image", "url(" + imageUrl + ")");
          $('#contactPage').show();
@@ -69,7 +69,7 @@ $(document).ready(function(){
   
          $('#musicMenu').on('click', function(e){
           e.preventDefault();
-          imageUrl = "images/gallery6.jpg";
+          imageUrl = "images/optimize/music-Faramarz-Rashidi.jpg";
           $('#galleryPage').hide();
           $('body').css("background-image", "url(" + imageUrl + ")");
           $('#musicPage').show();
@@ -81,7 +81,7 @@ $(document).ready(function(){
   
           $('#videoMenu').on('click', function(e){
            e.preventDefault();
-           imageUrl = "images/gallery7.jpg";
+           imageUrl = "images/optimize/video-Faramarz-Rashidi.jpg";
             $('#videoPage').show();
            $('#galleryPage').hide();
            $('body').css("background-image", "url(" + imageUrl + ")");

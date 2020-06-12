@@ -25,7 +25,47 @@ A) add media query and adjust the property of class element in html
  Q)confuzing creating git init in my computer and create repo in github and clone it to my computer? 
  don't know the difference?
 
+Q) to site live in github
+A) go to setting activiate page
+https://shirinmk.github.io/fz_music/root/index.html
 
- 
+Q) how do you check I used not restricted image?
+
+Q) hwo to optimazie image?
+A) first in folder view them with details to see acTUAL size then
+with photoshop save for web legacy and change size, scale, format to see which one is better
+https://www.shopify.com/blog/7412852-10-must-know-image-optimization-tips
+
+Q)bring the speed of video Ava down to watch
+
+Q) Don't use alt attributes for decorative images. Search engines may penalize you for over optimization.???
+
+P) fz even chosed size 700 for bg optimazie image is good
+
+Q)using image zoom
+A)https://www.shopify.com/partners/blog/jquery-image-zoom
+
+Q) how to center image?
+A)display : block; margin: 0 auto;
+
+@) how to have responsive image?
+A) img-fluid in bootstrap
+
+P) inorder my image inside div by resizing have fix size not get very big I determine width with pixel not percentage
+
+P) for image float in bootstrap I used float-right class
+p) for text to warp around image , I use pull-left class
+
+Q) how to set for differnt screen give class like image center in mobile?
+
+Q) how to center navbar dropdown content in the center?
+A) text-align: center; for navbar
+
+Q) how to put paragraph inline in bootstrap?
+A) go to display d-inline
+
+
+
+
 
 

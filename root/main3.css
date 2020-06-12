@@ -8,6 +8,7 @@ html,body{
     background-position: center;
     background-attachment: fixed;
     /* min-width:1000px;It is good for changing windows */
+    min-width: 414px;/* it bring scroll baar not break the page*/
   
   }
 
@@ -51,12 +52,12 @@ html,body{
   .header{
     font-family: 'Mrs Saint Delafield', cursive;
     font-size: 111px;
-    color : #724722;
+    color : #f17b01cc;
   
   
   }
   .colorhead{
-    color: #665200;
+    color:#ffa856;
   }
   
   
@@ -74,8 +75,8 @@ html,body{
       background-color: #A59C9A;
       opacity: 0.7;
       filter: alpha(opacity=50);
-      width:40%;/* create empty div box give width and hieth in px*/
-      height:500px; /* height of box inside middle content*/
+      width:60%;/* create empty div box give width and hieth in px*/
+      height:200px; /* height of box inside middle content*/
   }
   .colormid{
     color: #2C2018;
@@ -130,14 +131,15 @@ html,body{
   }
   
   /* bio section*/
-  #bioInside img{
+  /* #bioInside img{
     float : right;
-  }
+  } */
   #bioInside p{
     padding : 10px;
   }
   #bioInside{
     background-color: black;
+   
   }
   
   /* video music header format*/
@@ -145,12 +147,79 @@ html,body{
     font-size: 150px;
   }
 
+  /* .center {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* float: left;
+    width: 50%; */
+    #bio{
+      width: 284px;
+     
+     
+    }
+    /* contact section  */
+    .bg-black{
+      background-color: black;
+    }
+    @media only screen and (max-width: 410px){
+      .header{
+        font-size: 111px;
+      }
+    }
+    @media only screen and (min-width: 411px) and (max-width: 972px){
+      .header{
+        font-size: 82px;
+      }
+    }
   @media only screen and (max-width: 625px) {
-
+    /* make image gallery big for phone  */
     .column {
         float: left;
         width: 100%;
         padding: 10px;
       }
+      /* help image to be in center  */
+      #bio{
+        display: block;
+      margin : 0 auto;
+      margin-top: 5px;
+      }
+    
+      /* make hamburgermneu content to be in center  */
+    .navbar  {
+        text-align: center;
+    } 
 
+   
+  }
+  @media only screen and (max-width: 780px){
+    #bio{
+      display: block;
+      margin : 0 auto;
+      
+    }
+}
+@media only screen and (min-width: 781px){
+  #bio{
+    width: 264px;
+    
+    float:right;
+    
+  }
+  
+}
+
+
+  @media only screen and (min-width: 989px){
+    #bio{
+      width: 264px;
+      
+      float:right;
+      margin: 5px;
+      
+    }
+    #bioInside{
+      height: 400px;
+    }
   }
