@@ -59,7 +59,7 @@ html,body{
   .colorhead{
     color:#ffa856;
   }
-  
+
   
   .space2{
     letter-spacing: 0.03em;
@@ -89,8 +89,8 @@ html,body{
       background-color: #BA9279;
       opacity: 0.7;/* when increase opacity close to real color. opacity cause
        disapeAR box*/
-      width: 40%;
-      height: 150px;/* small box info size of height*/
+      width: 50%;
+      height: 250px;/* small box info size of height*/
   }
   .infoFont{
      font-family:'Mrs Saint Delafield', cursive;
@@ -190,7 +190,7 @@ html,body{
     .navbar  {
         text-align: center;
     } 
-
+  
    
   }
   @media only screen and (max-width: 780px){

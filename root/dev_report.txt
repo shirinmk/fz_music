@@ -64,6 +64,21 @@ A) text-align: center; for navbar
 Q) how to put paragraph inline in bootstrap?
 A) go to display d-inline
 
+READ) https://code.makery.ch/library/more-html-css/image-bootstrap/
+
+P) palce holder 
+https://via.placeholder.com/150
+
+P) <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> 
+it doesn't have width px init
+
+P) good site to create image
+https://dummyimage.com/
+ 
+P)this site help me with image float right with content using grid and bootstrap
+https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial/
+
+P) in bootstrap order div haa mohem hast aval image bad parapgraph is different than first param then image so ordering is going to be treaky
 
 
 

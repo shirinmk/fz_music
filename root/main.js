@@ -4,9 +4,9 @@ $(document).ready(function(){
 
     var imageUrl = "";
   
-    $("button").click(function(){
-      $("p").hide();
-    });
+    // $("button").click(function(){
+    //   $("p").hide();
+    // });
   
       imageUrl = "images/optimize/fzBack.jpg";
       $('body').css("background-image", "url(" + imageUrl + ")");
