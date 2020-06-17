@@ -80,6 +80,15 @@ https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial/
 
 P) in bootstrap order div haa mohem hast aval image bad parapgraph is different than first param then image so ordering is going to be treaky
 
+A) understanding breakpoints????
+
+PS) https://www.iconfinder.com/ 
+choosing file name imageeg: Ford-Mustang-LX-Red.jpg
+alt="2012 Ford Mustang LX Red"
+image size below 70kb
+ZACla.org
+
+
 
 
 

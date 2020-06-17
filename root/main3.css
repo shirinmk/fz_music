@@ -50,8 +50,9 @@ html,body{
     position:relative;
   }
   .header{
-    font-family: 'Mrs Saint Delafield', cursive;
-    font-size: 111px;
+    /* font-family: 'Mrs Saint Delafield', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
     color : #f17b01cc;
   
   
@@ -75,7 +76,7 @@ html,body{
       background-color: #A59C9A;
       opacity: 0.7;
       filter: alpha(opacity=50);
-      width:60%;/* create empty div box give width and hieth in px*/
+      width:70%;/* create empty div box give width and hieth in px*/
       height:200px; /* height of box inside middle content*/
   }
   .colormid{
@@ -89,11 +90,12 @@ html,body{
       background-color: #BA9279;
       opacity: 0.7;/* when increase opacity close to real color. opacity cause
        disapeAR box*/
-      width: 50%;
+      width: 70%;
       height: 250px;/* small box info size of height*/
   }
   .infoFont{
-     font-family:'Mrs Saint Delafield', cursive;
+     /* font-family:'Mrs Saint Delafield', cursive; */
+     font-family: 'Kaushan Script', cursive;
      letter-spacing: 0.03em;
     font-size: 39px;
     font-weight: bold;
@@ -134,9 +136,9 @@ html,body{
   /* #bioInside img{
     float : right;
   } */
-  #bioInside p{
+  /* #bioInside p{
     padding : 10px;
-  }
+  } */
   #bioInside{
     background-color: black;
    
@@ -158,10 +160,27 @@ html,body{
      
      
     }
+    /* bio section  */
+    .title-ltCap{
+
+      color: white;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 2.5em;
+    }
+    .first-ltCap{
+
+      color: white;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 2em;
+      letter-spacing: 0.3em;
+    }
+
     /* contact section  */
     .bg-black{
-      background-color: black;
+      background-color: rgb(10, 10, 10);
     }
+
+    /* media for phone  */
     @media only screen and (max-width: 410px){
       .header{
         font-size: 111px;
@@ -193,33 +212,7 @@ html,body{
   
    
   }
-  @media only screen and (max-width: 780px){
-    #bio{
-      display: block;
-      margin : 0 auto;
-      
-    }
-}
-@media only screen and (min-width: 781px){
-  #bio{
-    width: 264px;
-    
-    float:right;
-    
-  }
   
-}
 
 
-  @media only screen and (min-width: 989px){
-    #bio{
-      width: 264px;
-      
-      float:right;
-      margin: 5px;
-      
-    }
-    #bioInside{
-      height: 400px;
-    }
-  }
+
