@@ -179,6 +179,14 @@ html,body{
     .bg-black{
       background-color: rgb(10, 10, 10);
     }
+    .header4{
+      display: none;
+    }
+    /* footer section  */
+    footer{
+      text-align: center;
+    }
+   
 
     /* media for phone  */
     @media only screen and (max-width: 410px){
@@ -209,10 +217,28 @@ html,body{
     .navbar  {
         text-align: center;
     } 
+
+   
   
    
   }
-  
+  /* making specific for disappearing social phone  */
+  @media only screen and (max-width: 679px){
+    .social{
+      display: none;
+    }
+   
 
+  }
+
+  @media only screen and (max-width: 767px){
+    .header3{
+      display: none;
+
+    }
+    .header4{
+      display: block;
+    }
+  }
 
 
