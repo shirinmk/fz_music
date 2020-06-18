@@ -182,6 +182,12 @@ html,body{
     .header4{
       display: none;
     }
+    .title-ltCap-contact{
+
+      color: white;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 1.5em;
+    }
     /* footer section  */
     footer{
       text-align: center;

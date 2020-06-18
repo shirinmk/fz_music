@@ -90,6 +90,12 @@ ZACla.org
 
 Q) how go back to previous commit in github??
 
+Q) how to put two region in map ?
+A)go to google map and create map for yourself with different layer points
+
+Q)why light of my laptop is not working?
+
+
 
 
 
