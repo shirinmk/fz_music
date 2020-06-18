@@ -95,6 +95,8 @@ A)go to google map and create map for yourself with different layer points
 
 Q)why light of my laptop is not working?
 
+Q)i don't know how to retrieve from github and edit on my commits?
+
 
 
 
