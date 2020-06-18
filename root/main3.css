@@ -8,7 +8,7 @@ html,body{
     background-position: center;
     background-attachment: fixed;
     /* min-width:1000px;It is good for changing windows */
-    min-width: 380px;/* it bring scroll baar not break the page*/
+    min-width: 414px;/* it bring scroll baar not break the page*/
   
   }
 
